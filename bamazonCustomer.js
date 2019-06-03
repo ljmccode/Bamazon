@@ -42,7 +42,7 @@ function transaction() {
             name: "Quantity",
             message: "How many units would you like to buy?"
         }
-    ]).then(function(answers) {
+    ]).then(function() {
 
     })
 }
