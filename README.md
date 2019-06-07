@@ -4,7 +4,7 @@
 
 
 ### Description
-Welcome to Bamazon! This is a useful storefront node application for both consumers and managers to buy, sell, and view products. 
+Welcome to Bamazon! This is a useful storefront CLI application for both consumers and managers to buy, sell, and view products. 
 
 #### Bamazon Customer
 As a customer, running the node application `bamazonCustomer.js` will display all of the items available for purchase including their item ID, product name, and price. The customer will then be asked for the ID of the product they would like to purchase and how many units they would like to buy. Once the customer places the order, our application will check the inventory levels for that particular product. If the customer is trying to purchase more than what is available, it will respond with "Insufficient quantity!" Otherwise, the application will respond "Transaction complete!" and give the customer the total price of their purchase.
