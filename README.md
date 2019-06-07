@@ -16,7 +16,10 @@ As a manager, running the node applicaiton `bamazonManager.js` will display a li
 * Add to Inventory
 * Add New Product
 
-If a manager selects `View Products for Sale`, the app will list every available item's ID, name, price, and quantity. If a manager selects `View Low Inventory`, the app will list all items with an inventory count less than 5. If a manager selects `Add to Inventory`, the app will display a prompt that will allow the user to add more stock to any item currently in the store. If the manager selects `Add New Product`, it will allow the manager to add a completely new product to the store.
+If a manager selects `View Products for Sale`, the app will list every available item's ID, name, price, and quantity. <br/> 
+If a manager selects `View Low Inventory`, the app will list all items with an inventory count less than 5. <br/>
+If a manager selects `Add to Inventory`, the app will display a prompt that will allow the user to add more stock to any item currently in the store. <br/>
+If the manager selects `Add New Product`, it will allow the manager to add a completely new product to the store. <br/>
 
 ### Languages and Tools Used
 * MySQL
