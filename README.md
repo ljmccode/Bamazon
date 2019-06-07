@@ -1,7 +1,7 @@
 ## Bamazon App
 
 ### Link to Video Walk-through:
-
+https://drive.google.com/file/d/1CoECc4yJeAR9-lmtrSS7lyDA3cDiNaMl/view?usp=sharing
 
 ### Description
 Welcome to Bamazon! This is a useful storefront CLI application for both consumers and managers to buy, sell, and view products. 
