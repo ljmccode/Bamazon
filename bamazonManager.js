@@ -55,6 +55,7 @@ function showLowInventory() {
         if (err) throw err;
         for (var i = 0; i < row.length; i++) {
             if (row[i].stock_quantity < 5) {
+                console.log("********************************");
                 console.log("Product Name: " + row[i].product_name);
                 console.log("Quantity left: " + row[i].stock_quantity);
             }
