@@ -44,8 +44,7 @@ function showItems() {
             console.log("***********************************");
             console.log("Product ID: " + row[i].item_id);
             console.log("Product Name: " + row[i].product_name);
-            console.log("Department: " + row[i].department_name);
-            console.log("Price: " + row[i].price.toFixed(2));
+            console.log("Price: $" + row[i].price.toFixed(2));
             console.log("Quantity: " + row[i].stock_quantity);
         }
     })

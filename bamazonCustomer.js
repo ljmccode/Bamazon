@@ -23,9 +23,7 @@ function afterConnection() {
       console.log("***********************************");
       console.log("Product ID: " + row[i].item_id);
       console.log("Product Name: " + row[i].product_name);
-      console.log("Department: " + row[i].department_name);
-      console.log("Price: " + row[i].price.toFixed(2));
-      console.log("Quantity: " + row[i].stock_quantity);
+      console.log("Price: $" + row[i].price.toFixed(2));
     }
     inquirer.prompt([
       {
@@ -53,7 +51,7 @@ function afterConnection() {
             }
           ], function(error, response) {
             var itemPrice = row[answer.item_id - 1].price;
-            console.log("This will cost $" + (customerWants * itemPrice).toFixed(2));
+            console.log("Transaction complete! This will cost $" + (customerWants * itemPrice).toFixed(2));
           })
       }
       connection.end();
