@@ -25,4 +25,4 @@ If the manager selects `Add New Product`, it will allow the manager to add a com
 * MySQL
 * Node.js
 * Inquirer
-* Javascript
+* JavaScript
